@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="buttons">
+        <!-- 
+            1 = rock
+            2 = paper
+            3 = scissors
+         -->
+        <button class="btn btn-dark" id="rock">Rock</button>
+        <button class="btn btn-dark" id="paper">Paper</button>
+        <button class="btn btn-dark" id="scissors">Scissors</button>
+    </div>
+
+    <div>
+        <table width=50%>
+            <tr>
+                <th class="player-1-title">You</th>
+                <th class="player-2-title">Bot</th>
+            </tr>
+
+            <tr>
+                <td class="yourChoice"></td>
+                <td class="botChoice"></td>
+            </tr>
+
+        </table>
+
+        <div class="result-box">
+            <h3>Result:</h3>
+            <p class="result">getting result...</p>
+        </div>
+
+        <div class="new-game-box">
+            <button class="btn btn-warning" id="new-game-btn">New Game</button>
+            <button class="btn btn-danger" id="reset-scores">Reset Scores</button>
+        </div>
+
+        <table width=40%>
+            <tr>
+                <th>Players</th>
+                <th>Wins</th>
+                <th>Draws</th>
+                <th>Loses</th>
+            </tr>
+
+            <tr>
+                <td class="player1">You</td>
+                <td class="wins1">0</td>
+                <td class="draws1">0</td>
+                <td class="loses1">0</td>
+            </tr>
+
+            <tr>
+                <td class="player2">Bot</td>
+                <td class="wins2">0</td>
+                <td class="draws2">0</td>
+                <td class="loses2">0</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

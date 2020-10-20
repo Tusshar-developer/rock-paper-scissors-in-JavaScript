@@ -1,0 +1,27 @@
+* {
+  margin-top: 1rem;
+}
+
+body {
+  background-color: #515151;
+  text-align: center !important;
+  margin: auto;
+  color: #fff;
+}
+
+table {
+  border: solid #fff 1px;
+}
+
+th,
+td {
+  border: solid #fff 1px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.winner {
+  color: #fff;
+}
